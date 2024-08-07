@@ -15,7 +15,8 @@ HOW TO:
 
 
 # Sample Output
-![alt text](.\readme\image.png)
+
+![image](https://github.com/user-attachments/assets/9e8e89f7-57a8-4669-881e-73e0e46c4843)
 
 
 # Sample Input

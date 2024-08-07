@@ -4,11 +4,35 @@ Creates a 4o assistant to recommend gym workouts
 
 HOW TO:
 
-- Create a file called .env the contents should be:
-OPENAI_API_KEY=sk-your-api-here
+1) Create a file called .env the contents should be: OPENAI_API_KEY=key
+2) Edit the prompts in create-assistant.py to your liking
+3) Run create-assistant.py
+4) Edit most-recent-workout.txt and put in your most recent workout and the date.
+5) Run get-response.py
+6) View ChatGPT_Response.HTML
 
-- Edit the prompts in create-assistant.py to your liking
-- Run create-assistant.py
-- Edit most-recent-workout.txt and put in your most recent workout and the date.
-- Run get-response.py
-- View ChatGPT_Response.HTML
+
+
+
+# Sample Output
+![alt text](.\readme\image.png)
+
+
+# Sample Input
+## initial-workout.txt:
+8/8/2024
+- Squats 225lb 5x5
+- Deadlift 315lb 3x5
+- Leg press 400lb 4x10
+- Ran 2 miles
+
+## most-recent-workout.txt
+
+8/9/2024
+- OHP 100lb 5x5
+- Bench 200lb 5x5
+- Tricep pushdown 50lb 4x10
+- Pushups 3x10
+- Face pulls 3x10
+- Ran 2 miles
+

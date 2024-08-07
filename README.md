@@ -2,7 +2,7 @@
 Creates a 4o assistant to recommend gym workouts
 
 
-HOW TO:
+# Setup
 
 1) Create a file called .env the contents should be: OPENAI_API_KEY=key
 2) Edit the prompts in create-assistant.py to your liking
@@ -10,6 +10,10 @@ HOW TO:
 4) Edit most-recent-workout.txt and put in your most recent workout and the date.
 5) Run get-response.py
 6) View ChatGPT_Response.HTML
+
+
+# Usage
+Simply update most-recent-workout.txt, and then run get-response.py. The workout is saved in a conversation thread, and is constantly being updated and will stay in context of chatGPT.
 
 
 
